@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{{ghost_head}}
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="{{asset "fonts/stylesheet.css"}}">
+	<link rel="stylesheet" href="{{asset "css/styles.css"}}">
+	<title>{{@site.title}}</title>
+</head>
+<body>
+	<div class="container">
+		<header class="site-header">
+			<div class="header-flex">
+				<h1 class="site-title">
+					<a href="{{@site.url}}">{{@site.title}}</a>
+				</h1>
+
+				<nav class="site-nav">
+					{{navigation}}
+				</nav>
+			</div>
+		</header>
+
+		<main class="content container">
+			{{#is "home"}}
+			<section class="intro">
+				<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+			</section>
+			{{/is}}
+
+			{{{body}}}
+		</main>
+
+		<section class="profile-links">
+			<ul>
+				{{#foreach @site.secondary_navigation}}
+				<li><a href="{{url}}">{{label}}</a></li>
+				{{/foreach}}
+			</ul>
+		</section>
+
+		<footer class="site-footer">
+			Powered by <a href="https://ghost.org/" target="_blank">Ghost</a> &amp; <a href="https://themepost.dev" target="_blank">Themepost</a>
+		</footer>
+	</div>
+	{{ghost_foot}}
+</body>
+</html>

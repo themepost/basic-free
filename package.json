@@ -1,0 +1,43 @@
+{
+	"name": "basic-free",
+	"description": "Basic Free is a clean and minimalist blogging theme for Ghost. Designed to provide a seamless, text-focused experience. Perfect for writers and content creators who value simplicity and readability, this theme puts your content front and center, offering a distraction-free platform for storytelling.",
+	"version": "1.0.0",
+	"engines": {
+		"ghost": ">=5.0.0"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Themepost",
+		"email": "info@themepost.dev",
+		"url": "https://themepost.dev"
+	},
+	"keywords": [
+		"ghost",
+		"theme",
+		"ghost-theme"
+	],
+	"config": {
+		"posts_per_page": 6,
+		"image_sizes": {
+			"xs": {
+				"width": 150
+			},
+			"s": {
+				"width": 300
+			},
+			"m": {
+				"width": 720
+			},
+			"l": {
+				"width": 960
+			},
+			"xl": {
+				"width": 1200
+			},
+			"xxl": {
+				"width": 1170
+			}
+		},
+		"card_assets": true
+	}
+}

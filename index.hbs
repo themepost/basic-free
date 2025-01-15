@@ -1,0 +1,16 @@
+{{!< default}}
+<section class="posts">
+	<h2 class="latest-posts">Latest Posts</h2>
+	<div class="post-list">
+		{{#foreach posts limit="8"}}
+		<div class="post-item">
+			<h1 class="entry-title"><a href="{{url}}">{{title}}</a></h1>
+			<div class="meta">
+				<span class="date">{{date published_at}}</span>
+				<span class="sep">&middot;</span>
+				<span class="read-time">{{reading_time}}</span>
+			</div>
+		</div>
+		{{/foreach}}
+	</div>
+</section>
