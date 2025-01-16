@@ -1,7 +1,7 @@
 ## Basic Ghost Theme: Free Edition
 
 Basic by [Themepost](http://themepost.dev/basic).
-Basic is a clean and minimalist blogging theme for Ghost. Designed to provide a seamless, text-focused experience. Perfect for writers and content creators who value simplicity and readability, this theme puts your content front and center, offering a distraction-free platform for storytelling.
+Basic theme for Ghost is all about simplicity, focusing purely on the text to enhance readability and storytelling..
 
 ## Live Demo
 [Live Demo](https://themepost.dev/previews/basic)
