@@ -12,7 +12,7 @@ Basic is a clean and minimalist blogging theme for Ghost. Designed to provide a 
  * default.hbs
 
 ## Credit Links
-Themepost is released under the MIT license. While we appreciate you keeping our credit links intact, this is not required.
+Basic is released under the MIT license. While we appreciate you keeping our credit links intact, this is not required.
 
 ## Theme Support
 You are using the free edition of Basic. This edition does not include theme options or theme support. If you need support, simply purchase [Basic](http://themepost.dev/basic).
