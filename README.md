@@ -17,5 +17,5 @@ Basic is released under the MIT license. While we appreciate you keeping our cre
 ## Theme Support
 You are using the free edition of Basic. This edition does not include theme options or theme support. If you need support, simply purchase [Basic](http://themepost.dev/basic).
 
-Need to edit Themepost? The best free editor is VS Code. VS Code download:
+Need to edit Basic? The best free editor is VS Code. VS Code download:
 https://code.visualstudio.com/
