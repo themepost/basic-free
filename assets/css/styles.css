@@ -60,6 +60,10 @@ a:active {
 	display: inline-block; /* Ensure the logo doesn't stretch */
 }
 
+.gh-head-logo img {
+    max-height: 40px; /* Adjust this value to increase or decrease logo size */
+}
+
 .site-nav ul {
 	display: flex; /* Flexbox for horizontal alignment */
 	align-items: center; /* Vertically align nav items */
@@ -104,7 +108,7 @@ a:active {
 
 .post .entry-title {
 	font-weight: 700;
-	margin: 20px 0;
+	margin: 0 0 20px;
 }
 
 .meta {
